@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .home {
+        background-image: url('/wp-content/themes/space-theme/assets/images/background-home-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media (min-width: 640px) {
+        .home {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-home-tablet.jpg');
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .home {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-home-desktop.jpg');
+        }
+    }
+    
+    /* Destination Page Background */
+    .page-destination {
+        background-image: url('/wp-content/themes/space-theme/assets/images/background-destination-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media (min-width: 640px) {
+        .page-destination {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-destination-tablet.jpg');
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .page-destination {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-destination-desktop.jpg');
+        }
+    }
+    
+    /* Destination Page Background */
+    .page-crew {
+        background-image: url('/wp-content/themes/space-theme/assets/images/background-crew-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media (min-width: 640px) {
+        .page-crew {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-crew-tablet.jpg');
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .page-crew {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-crew-desktop.jpg');
+        }
+    }
+    
+    /* Technology Page Background */
+    .page-technology {
+        background-image: url('/wp-content/themes/space-theme/assets/images/background-technology-mobile.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    @media (min-width: 640px) {
+        .page-technology {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-technology-tablet.jpg');
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        .page-technology {
+            background-image: url('/wp-content/themes/space-theme/assets/images/background-technology-desktop.jpg');
+        }
+    }
+}
