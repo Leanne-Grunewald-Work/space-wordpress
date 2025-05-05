@@ -56,7 +56,7 @@ git clone https://github.com/Leanne-Grunewald-Work/space.git
 
 ## Design Credit
 
-This site is based on the [Audiophile eCommerce Challenge](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) by [Frontend Mentor](https://www.frontendmentor.io/)
+This site is based on the [Space Tourism Challenge](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) by [Frontend Mentor](https://www.frontendmentor.io/)
 
 ## About the Developer
 
